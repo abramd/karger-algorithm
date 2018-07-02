@@ -72,7 +72,6 @@ func calc(m matrix) uint {
 			}
 		}
 
-		// removing
 		if len(tmp) == 0 {
 			m = append(m[:fr], m[fr+1:]...)
 			log.Errorln("point without any relations")
